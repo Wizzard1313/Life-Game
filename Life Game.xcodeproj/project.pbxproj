@@ -15,6 +15,18 @@
 		1D551DC719CA516100BC40CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DC619CA516100BC40CD /* Images.xcassets */; };
 		1D551DCA19CA516100BC40CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DC819CA516100BC40CD /* LaunchScreen.xib */; };
 		1D551DD619CA516100BC40CD /* Life_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D551DD519CA516100BC40CD /* Life_GameTests.swift */; };
+		1D551DEE19CA58FC00BC40CD /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE119CA58FC00BC40CD /* balloon.png */; };
+		1D551DEF19CA58FC00BC40CD /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE219CA58FC00BC40CD /* bubble.png */; };
+		1D551DF119CA58FC00BC40CD /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE419CA58FC00BC40CD /* microscope.png */; };
+		1D551DF219CA58FC00BC40CD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE619CA58FC00BC40CD /* background.png */; };
+		1D551DF319CA58FC00BC40CD /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE819CA58FC00BC40CD /* button-pressed.png */; };
+		1D551DF419CA58FC00BC40CD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DE919CA58FC00BC40CD /* button.png */; };
+		1D551DF519CA58FC00BC40CD /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DEA19CA58FC00BC40CD /* pause-pressed.png */; };
+		1D551DF619CA58FC00BC40CD /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DEB19CA58FC00BC40CD /* pause.png */; };
+		1D551DF719CA58FC00BC40CD /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DEC19CA58FC00BC40CD /* play-pressed.png */; };
+		1D551DF819CA58FC00BC40CD /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DED19CA58FC00BC40CD /* play.png */; };
+		1D551DFA19CA61C200BC40CD /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D551DF919CA61C200BC40CD /* grid.png */; };
+		1D551DFC19CAD55700BC40CD /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D551DFB19CAD55700BC40CD /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,18 @@
 		1D551DCF19CA516100BC40CD /* Life GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D551DD419CA516100BC40CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D551DD519CA516100BC40CD /* Life_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_GameTests.swift; sourceTree = "<group>"; };
+		1D551DE119CA58FC00BC40CD /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		1D551DE219CA58FC00BC40CD /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		1D551DE419CA58FC00BC40CD /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = "<group>"; };
+		1D551DE619CA58FC00BC40CD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1D551DE819CA58FC00BC40CD /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		1D551DE919CA58FC00BC40CD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		1D551DEA19CA58FC00BC40CD /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = "<group>"; };
+		1D551DEB19CA58FC00BC40CD /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		1D551DEC19CA58FC00BC40CD /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
+		1D551DED19CA58FC00BC40CD /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		1D551DF919CA61C200BC40CD /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		1D551DFB19CAD55700BC40CD /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +108,7 @@
 				1D551DBB19CA516100BC40CD /* AppDelegate.swift */,
 				1D551DBD19CA516100BC40CD /* GameScene.sks */,
 				1D551DBF19CA516100BC40CD /* GameScene.swift */,
+				1D551DFB19CAD55700BC40CD /* Tile.swift */,
 				1D551DC119CA516100BC40CD /* GameViewController.swift */,
 				1D551DC319CA516100BC40CD /* Main.storyboard */,
 				1D551DC619CA516100BC40CD /* Images.xcassets */,
@@ -96,6 +121,7 @@
 		1D551DB919CA516000BC40CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D551DDF19CA58FC00BC40CD /* GameOfLifeAssets */,
 				1D551DBA19CA516100BC40CD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +142,48 @@
 				1D551DD419CA516100BC40CD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D551DDF19CA58FC00BC40CD /* GameOfLifeAssets */ = {
+			isa = PBXGroup;
+			children = (
+				1D551DE019CA58FC00BC40CD /* Assets */,
+				1D551DE519CA58FC00BC40CD /* BackgroundImage */,
+				1D551DE719CA58FC00BC40CD /* Buttons */,
+			);
+			path = GameOfLifeAssets;
+			sourceTree = "<group>";
+		};
+		1D551DE019CA58FC00BC40CD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D551DE119CA58FC00BC40CD /* balloon.png */,
+				1D551DE219CA58FC00BC40CD /* bubble.png */,
+				1D551DF919CA61C200BC40CD /* grid.png */,
+				1D551DE419CA58FC00BC40CD /* microscope.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1D551DE519CA58FC00BC40CD /* BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				1D551DE619CA58FC00BC40CD /* background.png */,
+			);
+			path = BackgroundImage;
+			sourceTree = "<group>";
+		};
+		1D551DE719CA58FC00BC40CD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1D551DE819CA58FC00BC40CD /* button-pressed.png */,
+				1D551DE919CA58FC00BC40CD /* button.png */,
+				1D551DEA19CA58FC00BC40CD /* pause-pressed.png */,
+				1D551DEB19CA58FC00BC40CD /* pause.png */,
+				1D551DEC19CA58FC00BC40CD /* play-pressed.png */,
+				1D551DED19CA58FC00BC40CD /* play.png */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +266,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D551DF419CA58FC00BC40CD /* button.png in Resources */,
+				1D551DF619CA58FC00BC40CD /* pause.png in Resources */,
+				1D551DF719CA58FC00BC40CD /* play-pressed.png in Resources */,
 				1D551DCA19CA516100BC40CD /* LaunchScreen.xib in Resources */,
+				1D551DEE19CA58FC00BC40CD /* balloon.png in Resources */,
 				1D551DC719CA516100BC40CD /* Images.xcassets in Resources */,
 				1D551DBE19CA516100BC40CD /* GameScene.sks in Resources */,
+				1D551DF519CA58FC00BC40CD /* pause-pressed.png in Resources */,
+				1D551DF319CA58FC00BC40CD /* button-pressed.png in Resources */,
 				1D551DC519CA516100BC40CD /* Main.storyboard in Resources */,
+				1D551DF119CA58FC00BC40CD /* microscope.png in Resources */,
+				1D551DFA19CA61C200BC40CD /* grid.png in Resources */,
+				1D551DF819CA58FC00BC40CD /* play.png in Resources */,
+				1D551DF219CA58FC00BC40CD /* background.png in Resources */,
+				1D551DEF19CA58FC00BC40CD /* bubble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +301,7 @@
 				1D551DC019CA516100BC40CD /* GameScene.swift in Sources */,
 				1D551DC219CA516100BC40CD /* GameViewController.swift in Sources */,
 				1D551DBC19CA516100BC40CD /* AppDelegate.swift in Sources */,
+				1D551DFC19CAD55700BC40CD /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
